@@ -1,1 +1,10 @@
-<p>task-item works!</p>
+<!--pun clasa reminder doar dc task.reminder este true / fiecare task are un reminder-->
+<!--declar onToggle pe tot DIV ul!-->
+<div class="task" [ngClass]="{reminder:task.reminder}" (dblclick)="onToggle(task)">
+<!--  (click)="onDelete(task)"-->
+  <h3>{{task.text}}
+<!--  <span [ngClass]="'btn-delete'">X</span>-->
+  <span [ngStyle]="{'color':'red'}"  (click)="onDelete(task)">X</span>
+  </h3>
+  <p>{{task.day}} </p>
+</div>

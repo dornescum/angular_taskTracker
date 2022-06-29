@@ -4,8 +4,8 @@
 tutorial:
 'https://www.youtube.com/watch?v=3dHNOWTI7H8&t=3104s'
 
-## concepts : **@Input, @Output, FormsModules, Services**
->  fetch data and filter
+## concepts : **@Input, @Output, FormsModules, HttpClient,Services**
+>  pass data, update mock server, ngClass, ngStyle
 <br/>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.

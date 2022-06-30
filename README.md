@@ -1,6 +1,6 @@
 # AngularTraversy
 
-# HttpFetch
+# Traversy Media
 tutorial:
 'https://www.youtube.com/watch?v=3dHNOWTI7H8&t=3104s'
 
